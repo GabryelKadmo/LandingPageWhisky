@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  background-color: #fafafa;
+}
+
+body.dark {
+  background-color: #242424;
+  color: #fff;
+}
+
+html, body {
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  background: #fafafa; /* Cor de fundo específica para .header */
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 110px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Searchbox {
+  height: 10px;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #242424;
+}
+
+.Searchbox input {
+  padding: 6px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 18px;
+  max-width: 200px;
+}
+
+.Searchbox input::placeholder {
+  color: #fff;
+  font-size: 15px;
+}
+
+.Searchbox img {
+  width: 20px;
+  cursor: pointer;
+}
+
+.toggleTheme {
+  width: 40px;
+  cursor: pointer;
+  margin-right: 60px;
+}
+
+.dark .header {
+  background-color: #242424;
+  color: #fff;
+}
+
+.dark .Searchbox {
+  background-color: #fff;
+}
+
+.dark .Searchbox input {
+  color: #242424;
+}
+
+.dark .Searchbox input::placeholder {
+  color: #242424;
+}
+
+.dark .menu li a {
+  color: #fff;
+}
+
+.dark .body {
+  background-color: #242424;
+  color: #fff;
+}
