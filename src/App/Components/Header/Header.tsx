@@ -4,7 +4,7 @@ import React from 'react';
 import "./Header.css";
 import logo_light from "./../../../assets/images/Header/logo-black.png";
 import logo_dark from "./../../../assets/images/Header/logo-white.png";
-import search_icon_light from "./../../../assets/images/Header/search-w.png";
+// import search_icon_light from "./../../../assets/images/Header/search-w.png";
 import search_icon_dark from "./../../../assets/images/Header/search-b.png";
 import toggle_light from "./../../../assets/images/Header/night.png";
 import toggle_dark from "./../../../assets/images/Header/day.png";
@@ -19,12 +19,10 @@ export function Header({ theme, setTheme }: HeaderProps) {
     setTheme(theme === 'light' ? 'dark' : 'light');
   }
 
-  // Adicionando classe 'dark' ao corpo (body) quando o tema for escuro
   React.useEffect(() => {
     document.body.classList.toggle('dark', theme === 'dark');
   }, [theme]);
 
-  // Adicionando classe 'dark' ao container quando o tema for escuro
   React.useEffect(() => {
     const container = document.querySelector('.container');
     if (container) {
@@ -43,7 +41,7 @@ export function Header({ theme, setTheme }: HeaderProps) {
 
       <div className="Searchbox">
         <input type="text" placeholder="Search" />
-        <img src={theme === 'light' ? search_icon_light : search_icon_dark} alt="" />
+        <img src={theme === 'light' ? search_icon_dark : search_icon_dark} alt="" />
       </div>
 
       <img onClick={toggle_mode} className="toggleTheme" src={theme === 'light' ? toggle_light : toggle_dark} alt="" />
