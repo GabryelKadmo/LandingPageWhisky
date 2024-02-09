@@ -1,15 +1,16 @@
 // App.tsx
-
-import  { useState } from "react";
+// import  { useState } from "react";
 import { Header } from "./App/Components/Header/Header";
-
+import {LandingPage} from "./App/Pages/LandingPage/LandingPage";
+import {Footer} from "./App/Components/Footer/Footer";
 function App() {
-  const [theme, setTheme] = useState('light');
 
   return (
-    <div className={`container ${theme}`}>
-      <Header theme={theme} setTheme={setTheme} />
-    </div>
+    <>
+      <Header/>
+      <LandingPage />
+      <Footer/>
+      </>
   );
 }
 

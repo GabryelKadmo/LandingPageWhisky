@@ -1,0 +1,69 @@
+.footer {
+  width: 100%;
+  height: 135px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 0px;
+}
+
+.LogoAndText {
+  display: flex;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.logoFooter {
+  padding-left: 20px;
+  height: 70px;
+  padding-right: 10px;
+}
+
+.textLogo {
+  font-size: 38px;
+  font-family: 'Savoye LET', sans-serif;
+                                                                                             
+}
+
+.MiddleInfo {
+  display: flex;
+}
+
+.MenuSectionFooter {
+  display: inline-block;
+  margin: 0px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+}
+
+.MenuSectionFooter a {
+  color: black;
+  display: block;
+}
+.InfoSectionFooter {
+  margin: 0px;
+  display: inline-block;
+  padding-right: 200px;
+}
+.InfoSectionFooter a {
+  color: black;
+  display: block;
+}
+.smallFooter {
+  font-size: 15px;
+}
+.normalFooter {
+  font-size: 25px;
+  padding-bottom: 5px;
+}
+.socialMediaFooter {
+  padding-right: 20px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.githubIcon{
+    padding-bottom: 10px;
+}
