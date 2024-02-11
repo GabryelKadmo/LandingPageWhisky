@@ -1,11 +1,9 @@
 import "./LandingPage.css";
-import LightFocus from "../../../assets/images/LandingPage/LightFocus.png";
 import introLandingPage from "../../../assets/images/LandingPage/IntroLandingPage.png";
 import JackDanielsImage from "../../../assets/images/LandingPage/JackDaniels.png";
 import RedLabelImage from "../../../assets/images/LandingPage/RedLabel.png";
 
 export function LandingPage() {
-  
   return (
     <>
       <div className="Intro">
@@ -31,9 +29,8 @@ export function LandingPage() {
       </div>
       <div className="WhiskiesInfo">
         <div className="WhiskiesBG">
-          <img className="jackDanielsImg" src={JackDanielsImage} alt="" />
-          <div className="lightFocusImg">
-            <img src={LightFocus} alt="" />
+          <div className="WhiskyFocus">
+            <img className="jackDanielsImg" src={JackDanielsImage} alt="" />
           </div>
           <p className="textJackDaniels">
             O Jack Daniel's é uma escolha clássica, oferecendo um sabor
@@ -43,11 +40,9 @@ export function LandingPage() {
         </div>
         <div className="WhiskiesBG">
           <img className="RedLabelImg" src={RedLabelImage} alt="" />
-          <div className="lightFocusImg">
-            <img src={LightFocus} alt="" />
-          </div>
           <p className="textJackDaniels">
-            O Johnnie Walker Red Label é uma escolha clássica e acessível,<br></br>
+            O Johnnie Walker Red Label é uma escolha clássica e acessível,
+            <br></br>
             perfeita para desfrutar em qualquer ocasião.
           </p>
         </div>

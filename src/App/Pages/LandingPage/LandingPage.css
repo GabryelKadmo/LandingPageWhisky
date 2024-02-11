@@ -1,16 +1,16 @@
 .Intro {
   position: relative;
   width: 100%;
-}
+}  
 
 .image-container {
   position: relative;
-}
+}  
 
 .introLandingPageImage {
   width: 100%;
   display: block;
-}
+}  
 
 .TitleLandingPageIntro {
   font-size: 70px;
@@ -19,7 +19,7 @@
   left: 210px;
   padding: 20px;
   color: white;
-}
+}  
 
 .SubTitleLandingPageIntro1 {
   font-size: 25px;
@@ -30,7 +30,7 @@
   padding: 20px;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
-}
+}  
 .SubTitleLandingPageIntro2 {
   font-size: 25px;
   position: absolute;
@@ -38,7 +38,7 @@
   left: 375px;
   padding: 20px;
   color: rgb(255, 255, 255);
-}
+}  
 .SubTitleLandingPageIntro3 {
   font-size: 25px;
   position: absolute;
@@ -46,12 +46,12 @@
   left: 200px;
   padding: 20px;
   color: white;
-}
+}  
 .WhiskiesInfo {
   display: block;
   justify-content: center;
   align-items: center;
-}
+}  
 
 .WhiskiesBG {
   display: flex;
@@ -60,45 +60,23 @@
   background-color: black;
   width: 100%;
   height: 440px;
-  position: relative; 
-}
+  position: relative;
+}  
 .jackDanielsImg {
-  /* max-width: 50%;  */
+  position: absolute;
+  margin-left: 24px;
+  z-index: 2;
   height: 280px;
-
-}
+}  
 
 .textJackDaniels {
   color: white;
   font-size: 30px;
-  margin-left: 20px; 
-}
+  margin-left: 20px;
+}  
 
 .RedLabelImg {
   height: 300px;
-}
+  padding-left: 36px;
+}  
 
-.image-container {
-  position: relative;
-  overflow: hidden;
-}
-
-.image {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.lightFocusImg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 1000px;
-  height: 200px;
-  opacity: 0; 
-  transition: opacity 0.3s ease; 
-}
-
-.WhiskiesBG:hover .lightFocusImg {
-  opacity: 1;
-}
