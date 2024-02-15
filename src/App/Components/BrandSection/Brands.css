@@ -1,3 +1,13 @@
-.BrandSection{
-    background-color: white;
+.BrandSection {
+  background-color: white;
+}
+.titleBrandSection {
+  font-family: "Cathiren", sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+.imgBrandsArea{
+    height: 100px;
+  padding-bottom: 100px;
+  padding-left: 90px;
 }
