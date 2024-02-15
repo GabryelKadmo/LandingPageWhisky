@@ -1,9 +1,9 @@
 import "./LandingPage.css";
-import introLandingPage from "../../../assets/images/LandingPage/IntroLandingPage.png";
-import JackDanielsImage from "../../../assets/images/LandingPage/JackDaniels.png";
-import RedLabelImage from "../../../assets/images/LandingPage/RedLabel.png";
-import WoodfordReserveImage from "../../../assets/images/LandingPage/WoodfordReserve.png";
-import OldParrImage from "../../../assets/images/LandingPage/OldParr.png";
+import introLandingPage from "../../../assets/images/LandingPageImgs/IntroLandingPage.png";
+import JackDanielsImage from "../../../assets/images/LandingPageImgs/JackDaniels.png";
+import RedLabelImage from "../../../assets/images/LandingPageImgs/RedLabel.png";
+import WoodfordReserveImage from "../../../assets/images/LandingPageImgs/WoodfordReserve.png";
+import OldParrImage from "../../../assets/images/LandingPageImgs/OldParr.png";
 
 export function LandingPage() {
   return (

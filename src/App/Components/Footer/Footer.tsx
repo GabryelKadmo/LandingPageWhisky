@@ -1,7 +1,7 @@
 import "./Footer.css";
-import Logo_Footer from "../../../assets/images/Footer/Logo-Footer.png";
-import GithubIcon from "../../../assets/images/Footer/GitHubIcon.png";
-import LinkedinIcon from "../../../assets/images/Footer/LinkedinIcon.png";
+import Logo_Footer from "../../../assets/images/FooterImgs/Logo-Footer.png";
+import GithubIcon from "../../../assets/images/FooterImgs/GitHubIcon.png";
+import LinkedinIcon from "../../../assets/images/FooterImgs/LinkedinIcon.png";
 
 export function Footer() {
   return (
