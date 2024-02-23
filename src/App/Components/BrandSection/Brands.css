@@ -1,13 +1,25 @@
 .BrandSection {
   background-color: white;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
+
 .titleBrandSection {
-  font-family: "Cathiren", sans-serif;
-  font-size: 50px;
+  font-family: 'Cathiren', sans-serif;
+  font-size: 2rem; /* Responsivo ao tamanho da tela */
   text-align: center;
+  margin-bottom: 20px;
 }
-.imgBrandsArea{
-    height: 100px;
-  padding-bottom: 100px;
-  padding-left: 90px;
+
+.imgBrandsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imgBrandsArea {
+  height: auto; /* Ajusta a altura automaticamente */
+  max-width: 150px; /* Limita a largura máxima */
+  margin: 10px; /* Espaçamento entre as imagens */
 }
