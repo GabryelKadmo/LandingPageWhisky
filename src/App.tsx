@@ -1,18 +1,22 @@
 // App.tsx
-// import  { useState } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Header } from "./App/Components/Header/Header";
-import {LandingPage} from "./App/Pages/LandingPage/LandingPage";
-import {Footer} from "./App/Components/Footer/Footer";
-import {Brands} from "./App/Components/BrandSection/Brands";
-function App() {
+import { LandingPage } from "./App/Pages/LandingPage/LandingPage";
+import { Footer } from "./App/Components/Footer/Footer";
+import ProductsPage from "./App/Pages/ProductsPage/ProductsPage";
 
+function App() {
   return (
     <>
-      <Header/>
-      <LandingPage />
-      <Brands/>
-      <Footer/>
-      </>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/produtos" element={<ProductsPage />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </>
   );
 }
 
