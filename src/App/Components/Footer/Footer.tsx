@@ -3,7 +3,14 @@ import Logo_Footer from "../../../assets/images/FooterImgs/Logo-Footer.png";
 import GithubIcon from "../../../assets/images/FooterImgs/GitHubIcon.png";
 import LinkedinIcon from "../../../assets/images/FooterImgs/LinkedinIcon.png";
 
+function RedirectGithub() {
+  window.open("https://github.com/gabryelkadmo");
+}
+function RedirectLinkedin() {
+  window.open("https://www.linkedin.com/in/gabryel-kadmo/");
+}
 export function Footer() {
+  
   return (
     <footer className="footer">
       <div className="LogoAndText">
@@ -23,8 +30,8 @@ export function Footer() {
         </ul>
       </div>
       <div className="socialMediaFooter">
-        <img className="githubIcon" src={GithubIcon} alt="" />
-        <img src={LinkedinIcon} alt="" />
+        <img onClick={RedirectGithub} className="githubIcon" src={GithubIcon} alt="" />
+        <img onClick={RedirectLinkedin} className="linkedinIcon" src={LinkedinIcon} alt="" />
       </div>
     </footer>
   );
