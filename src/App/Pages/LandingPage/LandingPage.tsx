@@ -17,14 +17,8 @@ export function LandingPage() {
           />
           <div className="TitleLandingPageIntro">Whisky n’ Blues</div>
           <div className="SubTitles">
-            <div className="SubTitleLandingPageIntro1">
-              Descubra o Whisky n' Blues:
-            </div>
-            <div className="SubTitleLandingPageIntro2">
-              Whiskies de alta qualidade, blues envolvente,
-            </div>
-            <div className="SubTitleLandingPageIntro3">
-              atmosfera genuína. Sua aventura começa aqui!
+            <div className="SubTitleLandingPageIntro">
+            Descubra o Whiskey n' Blues: Whiskies de alta qualidade, blues envolvente, atmosfera genuína. Sua aventura começa aqui!
             </div>
           </div>
         </div>

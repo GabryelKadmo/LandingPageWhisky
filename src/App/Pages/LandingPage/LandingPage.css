@@ -15,36 +15,20 @@
 .TitleLandingPageIntro {
   font-size: 70px;
   position: absolute;
-  top: 50px;
-  left: 210px;
+  top: 70px;
+  left: 190px;
   padding: 20px;
   color: white;
 }
 
-.SubTitleLandingPageIntro1 {
+.SubTitleLandingPageIntro {
+  max-width: 700px; 
+  text-align: center;
   font-size: 25px;
-
   position: absolute;
-  top: 150px;
+  top: 170px;
   left: 80px;
-  padding: 20px;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-.SubTitleLandingPageIntro2 {
-  font-size: 25px;
-  position: absolute;
-  top: 150px;
-  left: 375px;
-  padding: 20px;
-  color: rgb(255, 255, 255);
-}
-.SubTitleLandingPageIntro3 {
-  font-size: 25px;
-  position: absolute;
-  top: 180px;
-  left: 200px;
-  padding: 20px;
+  padding: 10px;
   color: white;
 }
 .WhiskiesInfo {
@@ -76,7 +60,7 @@
   text-align: justify;
   max-width: 800px; 
   font-size: 30px;
-  margin-left: 20px; 
+  margin-left: 45px; 
 }
 .RedLabelImg {
   transition: transform 0.5s ease;
@@ -93,7 +77,7 @@
   color: white;
   max-width: 800px; 
   font-size: 30px;
-  margin-left: 20px; 
+  margin-left: 45px; 
 }
 .WoodfordReserveImg {
   transition: transform 0.5s ease;
@@ -109,7 +93,7 @@
   text-align: justify;
   font-size: 30px;
   max-width: 800px; 
-  margin-left: 20px; 
+  margin-left: 45px; 
 }
 
 .OldParrImg {
@@ -122,7 +106,7 @@
   transition: transform 0.5s ease;
 }
 .DescOldParr {
-  margin-left: 20px;
+  margin-left: 45px;
   text-align: justify;
   color: white;
   font-size: 30px;
