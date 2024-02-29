@@ -10,8 +10,8 @@ export function Header() {
     <header className="header">
       <img className="logo" src={logo_dark} alt="" />
       <ul className='menu'>
-        <li><a href="">Home</a></li>
-        <li><a href="">Products</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/Produtos">Products</a></li>
         <li><a href="">About</a></li>
       </ul>
     </header>

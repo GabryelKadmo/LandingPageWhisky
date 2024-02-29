@@ -4,7 +4,7 @@ import JackDanielsImage from "../../../assets/images/LandingPageImgs/JackDaniels
 import RedLabelImage from "../../../assets/images/LandingPageImgs/RedLabel.png";
 import WoodfordReserveImage from "../../../assets/images/LandingPageImgs/WoodfordReserve.png";
 import OldParrImage from "../../../assets/images/LandingPageImgs/OldParr.png";
-
+import { Brands } from "../../Components/BrandSection/Brands";
 export function LandingPage() {
   return (
     <>
@@ -67,6 +67,8 @@ export function LandingPage() {
           </p>
         </div>
       </div>
+      <Brands />
     </>
+    
   );
 }
