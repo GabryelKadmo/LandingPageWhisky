@@ -47,11 +47,12 @@
   position: relative; 
 }
 .jackDanielsImg {
+  opacity: 90%;
   height: 280px;
   transition: transform 0.5s ease;
-
 }
 .jackDanielsImg:hover {
+  opacity: 100%;
   transform: scale(1.1);
   transition: transform 0.5s ease;
 }
@@ -63,6 +64,7 @@
   margin-left: 45px; 
 }
 .RedLabelImg {
+  opacity: 90%;
   transition: transform 0.5s ease;
   padding-left: 10px;
   height: 280px;
@@ -71,6 +73,7 @@
 .RedLabelImg:hover {
   transform: scale(1.1);
   transition: transform 0.5s ease;
+  opacity: 100%;
 }
 .DescRedLabel {
   text-align: justify;
@@ -80,11 +83,13 @@
   margin-left: 45px; 
 }
 .WoodfordReserveImg {
+  opacity: 90%;
   transition: transform 0.5s ease;
   padding-left: 20px;
   height: 240px;
 }
 .WoodfordReserveImg:hover {
+  opacity: 100%;
   transform: scale(1.1);
   transition: transform 0.5s ease;
 }
@@ -97,11 +102,13 @@
 }
 
 .OldParrImg {
+  opacity: 90%;
   padding-left: 25px;
   transition: transform 0.5s ease;
   height: 280px;
 }
 .OldParrImg:hover {
+  opacity: 100%;
   transform: scale(1.1);
   transition: transform 0.5s ease;
 }
