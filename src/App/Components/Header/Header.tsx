@@ -11,8 +11,8 @@ export function Header() {
       <img className="logo" src={logo_dark} alt="" />
       <ul className='menu'>
         <li><a href="/">Home</a></li>
-        <li><a href="/Produtos">Products</a></li>
-        <li><a href="">About</a></li>
+        <li><a href="/about">Sobre</a></li>
+        {/* <li><a href="/Produtos">Products</a></li> */}
       </ul>
     </header>
   );

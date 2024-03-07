@@ -1,4 +1,4 @@
-import "./ProductsPage.css"
+import "./AboutPage.css"
 
 export default function ProductsPage() {
     return (
