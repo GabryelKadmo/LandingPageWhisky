@@ -1,29 +1,33 @@
 .footer {
   width: 100%;
-  height: 135px;
+  height: 165px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #ffffff;
+  background-color: #000000;
   padding: 0px;
 }
 
 .LogoAndText {
+  color: white;
   display: flex;
   align-items: center;
-  padding-bottom: 60px;
+  padding-bottom: 0px;
 }
 
 .logoFooter {
   padding-left: 5px;
   height: 70px;
   padding-right: 10px;
+  padding-bottom: 60px;
 }
 
 .textLogo {
+  color: white;
   font-size: 38px;
   font-family: 'Savoye LET', sans-serif;
-                                                                                             
+  margin-top: 0px;
+  margin-bottom: 60px;                                                                                
 }
 
 .MiddleInfo {
@@ -38,7 +42,7 @@
 }
 
 .MenuSectionFooter a {
-  color: black;
+  color: rgb(255, 255, 255);
   display: block;
 }
 .InfoSectionFooter {
@@ -47,7 +51,7 @@
   padding-right: 200px;
 }
 .InfoSectionFooter a {
-  color: black;
+  color: rgb(255, 255, 255);
   display: block;
 }
 .smallFooter {
@@ -67,7 +71,6 @@
 .githubIcon{
     padding-bottom: 10px;
     cursor: pointer;
-    filter: brightness(0%);
 }
 .githubIcon:hover{
     transform: scale(1.1);
@@ -75,7 +78,7 @@
 }
 .linkedinIcon{
     cursor: pointer;
-    filter: brightness(0%);
+    padding-right: 3px;
 }
 .linkedinIcon:hover{
     transform: scale(1.1);
