@@ -6,7 +6,7 @@ import linkedinPreview from "../../../assets/images/AboutImgs/LinkedinPreview.pn
 
 export default function AboutPge() {
   function ProjetoRecente() {
-    return <p className="textRedirectImages">&lt;PROJETO RECENTE/&gt;</p>;
+    return <p id="specialVersaID" className="textRedirectImages">&lt;PROJETO RECENTE/&gt;</p>;
   }
   function MeuGithub() {
     return <p id="specialGithubID" className="textRedirectImages">&lt;MEU GITHUB/&gt;</p>;

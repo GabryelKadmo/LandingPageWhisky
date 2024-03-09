@@ -55,10 +55,13 @@
     overflow: hidden;
   }
   #specialLinkedinID{
-    margin-left: 80px;
+    margin-left: 60px;
   }
   #specialGithubID{
-    margin-left: 70px;
+    margin-left: 25px;
+  }
+  #specialVersaID{
+    margin-left: 39px;
   }
   .containerRedirectImages {
     display: flex;
