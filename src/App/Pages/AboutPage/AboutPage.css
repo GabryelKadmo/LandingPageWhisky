@@ -57,6 +57,9 @@
   #specialLinkedinID{
     margin-left: 80px;
   }
+  #specialGithubID{
+    margin-left: 30px;
+  }
   .containerRedirectImages {
     display: flex;
     justify-content: center;

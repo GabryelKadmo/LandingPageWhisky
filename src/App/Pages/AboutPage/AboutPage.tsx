@@ -9,7 +9,7 @@ export default function AboutPge() {
     return <p className="textRedirectImages">&lt;PROJETO RECENTE/&gt;</p>;
   }
   function MeuGithub() {
-    return <p className="textRedirectImages">&lt;MEU GITHUB/&gt;</p>;
+    return <p id="specialGithubID" className="textRedirectImages">&lt;MEU GITHUB/&gt;</p>;
   }
   function MeuLinkedin() {
     return <p id="specialLinkedinID" className="textRedirectImages">&lt;MEU LINKEDIN/&gt;</p>;
