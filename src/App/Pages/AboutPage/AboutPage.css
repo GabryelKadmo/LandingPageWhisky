@@ -1,3 +1,6 @@
+.centerItems{
+background-color: red;
+}
 .AboutPge {
   position: relative;
 }
@@ -18,8 +21,12 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+
 }
 .AboutProjectText {
+  margin-top: 0px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 27px;
@@ -29,71 +36,66 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  max-width: 1000px;
+  width: 80%;
 }
-.sectionRedirectVersa {
-  background-color: black;
-  height: 40px;
-  border-radius: 25px;
-  color: white;
-  position: absolute;
-  top: 50%;
-  left: 250px;
-  transform: translate(-50%, -50%);
+.sectionRedirect {
+  width: 1462.670px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.sectionRedirectGithub {
-  background-color: black;
-  height: 40px;
-  border-radius: 25px;
-  color: white;
   position: absolute;
-  top: 50%;
-  left: 940px;
+  top: 45%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  gap : 210px; /* Espaçamento relativo */
+  max-width: 100%; /* Largura máxima relativa à tela */
 }
-.sectionRedirectLinkedin {
-  background-color: black;
-  height: 40px;
-  border-radius: 25px;
-  color: white;
+
+.sectionRedirect p {
+  max-width: 100%; /* Largura máxima relativa à div pai */
+  white-space: nowrap; /* Impede que o texto quebre */
+  overflow: hidden; /* Esconde qualquer texto que extrapole o limite */
+}
+#specialLinkedinID{
+  margin-left: 80px;
+}
+.containerRedirectImages {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  gap: 90px;
   position: absolute;
-  top: 50%;
-  left: 1550px;
+  top: 60%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
-.latestProject {
+
+.redirectVersa,
+.redirectGit,
+.redirectLinkedin {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza os elementos filhos */
+}
+
+.textRedirectImages {
   color: rgb(255, 255, 255);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: italic;
-  font-size: 35px;
+  font-size: 30px; /* Tamanho do texto */
+  margin-top: 10px; /* Espaçamento superior */
+  margin-left: 20px;
 }
+
 .redirectVersa {
-  position: absolute;
-  top: 55%;
-  left: 75px;
+  left: 0; /* Alinha à esquerda */
 }
+
 .redirectGit {
-  position: absolute;
-  top: 55%;
-  left: 735px;
+  left: 0; /* Alinha à esquerda */
 }
+
 .redirectLinkedin {
-  position: absolute;
-  top: 55%;
-  left: 1335px;
+  left: 0; /* Alinha à esquerda */
 }
 .PreviewsAbout {
   cursor: pointer;

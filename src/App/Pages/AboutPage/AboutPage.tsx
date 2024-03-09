@@ -6,13 +6,13 @@ import linkedinPreview from "../../../assets/images/AboutImgs/LinkedinPreview.pn
 
 export default function AboutPge() {
   function ProjetoRecente() {
-    return <p className="latestProject">&lt;PROJETO RECENTE/&gt;</p>;
+    return <p className="textRedirectImages">&lt;PROJETO RECENTE/&gt;</p>;
   }
   function MeuGithub() {
-    return <p className="latestProject">&lt;MEU GITHUB/&gt;</p>;
+    return <p className="textRedirectImages">&lt;MEU GITHUB/&gt;</p>;
   }
   function MeuLinkedin() {
-    return <p className="latestProject">&lt;MEU LINKEDIN/&gt;</p>;
+    return <p id="specialLinkedinID" className="textRedirectImages">&lt;MEU LINKEDIN/&gt;</p>;
   }
   function RedirectVersa() {
     window.open("https://onlineversa.vercel.app");
@@ -34,26 +34,23 @@ export default function AboutPge() {
           TypeScript.
         </p>
       </div>
+      <div className="centerItems">
       <div className="sectionRedirect">
-        <div className="sectionRedirectVersa">
           <ProjetoRecente />
-        </div>
-        <div className="sectionRedirectGithub">
           <MeuGithub />
-        </div>
-        <div className="sectionRedirectLinkedin">
           <MeuLinkedin />
-        </div>
-        <div className="sectionRedirectLinkedin"></div>
-        <div className="redirectVersa">
+      </div>
+      <div className="containerRedirectImages">
+      <div className="redirectVersa">
           <img onClick={RedirectVersa} className="PreviewsAbout" src={versaPreview} alt="" />
         </div>
-      </div>
       <div className="redirectGit">
         <img onClick={RedirectGit} className="PreviewsAbout" src={gitPreview} alt="" />
       </div>
       <div className="redirectLinkedin">
         <img onClick={RedirectLinkedin} className="PreviewsAbout" src={linkedinPreview} alt="" />
+      </div>
+      </div>
       </div>
     </>
   );
