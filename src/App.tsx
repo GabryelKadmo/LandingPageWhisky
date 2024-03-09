@@ -13,7 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<LandingPage />} />
           {/* <Route path="/produtos" element={<ProductsPage />} /> */}
-          <Route path="/About" element={<AboutPage />} />
+          <Route path="/Sobre" element={<AboutPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>
