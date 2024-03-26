@@ -12,7 +12,7 @@ export function Brands() {
     return (
         <section className="BrandSection">
             <h1 className="titleBrandSection">MARCAS FAMOSAS</h1>
-            <div>
+            <div className="brands">
                 <img className="imgBrandsArea" src={JackDanielsLogo} alt="" />
                 <img className="imgBrandsArea" src={DalmoreLogo} alt="" />
                 <img className="imgBrandsArea" src={OldParrLogo} alt="" />

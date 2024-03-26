@@ -46,14 +46,14 @@ li a {
 
 @media (max-width: 768px) {
   .header {
-    height: auto; /* Ajustando altura automaticamente para conteúdo responsivo */
-    flex-direction: column; /* Alterando para layout de coluna em telas menores */
-    align-items: center; /* Centralizar itens em telas menores */
-    padding: 10px; /* Adicionando espaçamento interno */
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
   }
 
   .logo {
-    margin-left: 0; /* Removendo a margem esquerda em telas menores */
-    margin-top: 10px; /* Ajustando margem superior para distância entre logo e menu */
+    margin-left: 0;
+    margin-top: 10px;
   }
 }

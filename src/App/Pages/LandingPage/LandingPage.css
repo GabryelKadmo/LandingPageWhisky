@@ -32,16 +32,22 @@
   color: white;
 }
 .WhiskiesInfo {
-  display: block;
-  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
+  background-color: black;
+}
+
+.WhiskiesInfo > div {
+  width: 45%;
+  margin-bottom: 20px;
 }
 
 .WhiskiesBG {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black;
   width: 100%;
   height: 380px;
   position: relative; 
@@ -85,7 +91,6 @@
 .WoodfordReserveImg {
   opacity: 90%;
   transition: transform 0.5s ease;
-  padding-left: 20px;
   height: 240px;
 }
 .WoodfordReserveImg:hover {
@@ -103,7 +108,6 @@
 
 .OldParrImg {
   opacity: 90%;
-  padding-left: 25px;
   transition: transform 0.5s ease;
   height: 280px;
 }
